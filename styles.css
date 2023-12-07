@@ -1,0 +1,231 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Intro section styles */
+.intro-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro-content a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Featured adoptions section styles */
+/* ... (previous CSS styles remain unchanged) ... */
+
+/* Image gallery styles */
+.image-gallery {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.image-gallery h2 {
+    margin-bottom: 20px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width and gap as needed */
+    text-align: center;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ... (other styles remain unchanged) ... */
+
+/* Logo styles */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.adoption-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.pet-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.pet-details h2 {
+  margin-top: 0;
+}
+
+.pet-details p {
+  margin-bottom: 0;
+}
+
+
+/* Basic styling for the Contact page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.contact-section h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+form label,
+form input,
+form textarea,
+form input[type="submit"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ .social-icons {
+      font-size: 24px;
+    }
+    .social-icons a {
+      margin-right: 10px;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    .social-icons a:hover {
+      color: #4267B2; 
+    }
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
